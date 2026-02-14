@@ -2,7 +2,7 @@ import streamlit as st
 
 # Website ka Title
 st.title("Mehmood's first Web App 🚀")
-st.title("Python Powar!")
+st.title("Python Power!")
 
 # Text likhne ke liye
 st.write("Welcome to my Python Frontend!")
