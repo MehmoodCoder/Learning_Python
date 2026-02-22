@@ -67,15 +67,3 @@ print(f"Count of 'i' or 'I': {countI}")
 print(f"Count of 'o' or 'O': {countO}")
 print(f"Count of 'u' or 'U': {countU}")
 
-
-
-
-
-
-
-
-
-
-
-
-
