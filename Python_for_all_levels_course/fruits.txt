@@ -1,0 +1,23 @@
+1. apple
+2. banana
+3. orange
+4. grape
+5. kiwi
+6. mango
+7. strawberry
+8. blueberry
+9. watermelon
+10. peach
+11. pear
+
+apple
+banana
+orange
+grape
+kiwi
+mango
+strawberry
+blueberry
+watermelon
+peach
+pear
