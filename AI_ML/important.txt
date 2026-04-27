@@ -1,0 +1,3 @@
+Remaining all Execises or topics describe in register
+
+*args and **kwargs from Python_for_all_levels_course>func_task.py
