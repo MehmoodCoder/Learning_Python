@@ -1,0 +1,2 @@
+def tyres():
+    return "Tyres"
