@@ -16,6 +16,8 @@ class bank():
             self.balance -= amount 
             print(f"You widraw {amount}")
             self.show()
+            
+            
     def show(self):
         print(f"{self.name} Balance = {self.balance}")
         
@@ -30,7 +32,7 @@ Ali.deposite(5000)
 # Failed here
 Ali.widraw(100000)
 # Ali.show()
-
+print("X"*61)
 
 # 2
 
@@ -48,9 +50,13 @@ class bank():
             self.show()
     def widraw(self,amount):
         if amount > 0:
-            self.balance -= amount 
-            print(f"You widraw {amount}")
-            self.show()
+            if self.balance > 0:
+                if amount <= self.balance:
+                    self.balance -= amount 
+                    print(f"You widraw {amount}")
+                    self.show()
+                else:
+                    print(f"{self.name} widraw {amount}.But your balance is {self.balance} !")
     def show(self):
         print(f"{self.name} Balance = {self.balance}")
         
@@ -58,8 +64,8 @@ Mehmood = bank("Mehmood",100000000)
 Mehmood.deposite(12000)
 Mehmood.widraw(12000)
 
-Ali = bank("Ali",89000)
+Ali = bank("Ali",90000)
 Ali.deposite(5000)
-Ali.widraw(10000)
+Ali.widraw(100000)
 
 
