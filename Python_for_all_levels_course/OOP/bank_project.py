@@ -39,12 +39,18 @@ print("X"*61)
 
 class bank():
     
+    @staticmethod
+    def greet(self):
+        greet = f"Hello Welcome back {self.name} !"
+        return greet
+    
     def __init__(self,name,balance):
         self.name = name
         self.balance = balance
         print("Account Successfully Created")
     def deposite(self,amount):
         if amount > 0:
+            print(bank.greet(self))
             self.balance += amount
             print(f"You deposite {amount}")
             self.show()
@@ -52,6 +58,7 @@ class bank():
         if amount > 0:
             if self.balance > 0:
                 if amount <= self.balance:
+                    print(bank.greet(self))
                     self.balance -= amount 
                     print(f"You widraw {amount}")
                     self.show()
