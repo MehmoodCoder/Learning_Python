@@ -25,6 +25,34 @@
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        input , textarea{
+            margin-top: 20px;
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            padding: 10px;
+        }
+        input.submit{
+            background-color: navy;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            border-color: black;
+            border-radius: 20px;
+            padding: 5px 10px;
+        }
+        input.submit:hover{
+            background-color: #333;
+        }
+        h6{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+            color:rgb(36, 35, 35);
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -39,6 +67,25 @@
             <img src="{% static 'BMW.jpg' %}" alt="BMW M4" width="auto" height="auto">
         </center>
         <a href="{% url 'result' %}">View Result</a>
+    </div>
+    <br><br>
+    <div>
+        <!-- for security -->
+        <!-- <form action="{% url 'result' %}">
+            {% csrf_token %} 
+            <input type="text" name="name" placeholder="Enter your name"><br>
+            <input class = "submit" type="submit" value="Submit">
+        </form> -->
+        
+        <br>
+
+        <form action="{% url 'result' %}">
+            {% csrf_token %} 
+            <!-- for security -->
+             <h6>Enter your message :</h6>
+            <textarea style="resize: none;" name="message" cols = "60" rows ="10" id="message" placeholder="Enter your message here..."></textarea><br>
+            <input class = "submit" type="submit" value="Submit">
+        </form>
     </div>
 </body>
 </html>

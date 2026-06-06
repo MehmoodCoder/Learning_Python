@@ -30,11 +30,21 @@
 </head>
 <body>
     <div>
-        <h1 class="h1">Your Result</h1><br>
+        
+        <!-- <h1 class="h1">Your Result</h1><br>
         <center>
             <h1>You are fail !!!</h1>
-        </center>
-        <a href="{% url 'home' %}">Go Back to Home page</a>
+        </center> -->
+
+        <a href="{% url 'home' %}">Go Back to Home page</a><br><br>
+
+        <h5>Your message is {{message}}</h5>
+        <h5>Word Count: {{word_count}}</h5>
+
+        {% for word, frequency in dict_words %}
+            <p>{{ word }}: {{ frequency }}</p>
+        {% endfor %}
+
     </div>
 </body>
 </html>
