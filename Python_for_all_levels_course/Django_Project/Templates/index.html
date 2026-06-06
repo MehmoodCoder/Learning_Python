@@ -1,0 +1,41 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e4e1e1;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: navy;
+        }
+        p {
+            color: #333;
+        }
+        div {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Welcome to My Website</h1>
+        <p>This is the home page of my BMW Django project.</p>
+        <center>
+            <h1>BMW M4</h1>
+            <img src="{% static 'BMW.jpg' %}" alt="BMW M4" width="auto" height="auto">
+            <img src="{% static 'BMW.jpg' %}" alt="BMW M4" width="auto" height="auto">
+        </center>    
+    </div>
+</body>
+</html>
