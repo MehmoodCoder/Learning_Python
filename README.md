@@ -11,8 +11,10 @@ Follow these steps to set up the environment and run the project locally.
 
 ### 1. Prerequisites (Python Installation)
 Make sure you have Python installed on your system.
+
 * **Windows/Linux/macOS:** Download and install it from [python.org](https://www.python.org/).
 * Verify installation:
+
   ```bash
   python --version
   ```
@@ -31,6 +33,7 @@ source venv/bin/activate
 
 
 ### 3. Install Django
+
 Install the required framework using pip:
 
 ```
