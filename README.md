@@ -20,19 +20,111 @@ This workspace is organized logically into progressive learning modules:
 
 ## 📁 Repository Directory Architecture
 
-```text
-c:\Users\mehmo\Desktop\MehmoodsCode\Learning_Python
-├── 📁 Learning_python              # Basic scripts & logic tasks
-│   ├── 📁 Python_Concepts         # Language tricks, walrus operator, & conceptual logic
-│   └── 🐍 web_app.py / bg_remover # Desktop & UI application scripts
-├── 📁 Python                      # Functional Python & Package management
-│   ├── 📁 modules                  # Custom structural scripts
-│   └── 📁 pakages                  # Multi-folder modular packages (east/west)
-├── 📁 Python_for_all_levels_course # Advanced course modules
-│   ├── 📁 Django_Project          # Active Django Web Framework Project
-│   ├── 📁 OOP                     # Object-Oriented Programming implementations
-│   └── 📁 Professional_Project    # Modular game engine build
-└── ⚙️ .gitignore                  # Git tracking rules
+
+**Generated:** 8/18/2026, 7:22:31 PM
+**Root Path:** `workspace\Learning_Python`
+
+```
+├── 📁 Learning_python
+│   ├── 📁 Python_Concepts
+│   │   ├── 🐍 conceptual_logic.py
+│   │   ├── 🐍 tricks_of_python.py
+│   │   ├── 🐍 tricks_of_python_2.py
+│   │   └── 🐍 walrus_operator.py
+│   ├── 🐍 age_group_task.py
+│   ├── 🐍 bg_remover.py
+│   ├── 🐍 first_task.py
+│   ├── 🐍 heart.py
+│   ├── 🖼️ pictorial_representation_of_datascience.png
+│   ├── 🐍 star_loop.py
+│   ├── 🐍 threeTasks.py
+│   ├── 🐍 vowel.py
+│   ├── 🐍 web_app.py
+│   └── 🐍 window.py
+├── 📁 Python
+│   ├── 📁 modules
+│   │   ├── 🐍 america.py
+│   │   ├── 🐍 china.py
+│   │   ├── 🐍 germany.py
+│   │   ├── 🐍 iran.py
+│   │   └── 🐍 pakistan_industry.py
+│   ├── 📁 pakages
+│   │   ├── 📁 east
+│   │   │   ├── 🐍 china.py
+│   │   │   └── 🐍 iran.py
+│   │   ├── 📁 west
+│   │   │   ├── 🐍 america.py
+│   │   │   └── 🐍 germany.py
+│   │   └── 🐍 pakages.py
+│   ├── 🐍 exercise.py
+│   ├── 🐍 filter.py
+│   ├── 🐍 function.py
+│   ├── 🐍 help_function.py
+│   ├── 📄 important.txt
+│   ├── 🐍 list_comprehension.py
+│   ├── 🐍 local__scope_rulee.py
+│   ├── 🐍 map.py
+│   ├── 🐍 non_local_scope.py
+│   ├── 🐍 range.py
+│   ├── 🐍 reduce.py
+│   ├── 🐍 sets_dicts_comprehension.py
+│   ├── 🐍 stars.py
+│   ├── 🐍 three_keywords.py
+│   ├── 🐍 while.py
+│   └── 🐍 zip.py
+├── 📁 Python_for_all_levels_course
+│   ├── 📁 Django_Project
+│   │   ├── 📁 MyWeb
+│   │   │   ├── 🐍 __init__.py
+│   │   │   ├── 🐍 asgi.py
+│   │   │   ├── 🐍 settings.py
+│   │   │   ├── 🐍 urls.py
+│   │   │   ├── 🐍 views.py
+│   │   │   └── 🐍 wsgi.py
+│   │   ├── 📁 Templates
+│   │   │   ├── 🖼️ BMW.jpg
+│   │   │   ├── 🌐 index.html
+│   │   │   └── 🌐 result.html
+│   │   ├── 📄 db.sqlite3
+│   │   └── 🐍 manage.py
+│   ├── 📁 OOP
+│   │   ├── 📝 README.md
+│   │   ├── 🐍 bank_project.py
+│   │   ├── 🐍 class.py
+│   │   ├── 🐍 class_exercise.py
+│   │   ├── 🐍 doc.py
+│   │   ├── 🐍 name_space_class.py
+│   │   ├── 🐍 polymorphism.py
+│   │   └── 🐍 underscore_meaning.py
+│   ├── 📁 Professional_Project
+│   │   ├── 🐍 enemy.py
+│   │   ├── 🐍 main.py
+│   │   └── 🐍 player.py
+│   ├── 🐍 builtins_modules.py
+│   ├── 🐍 decorators.py
+│   ├── 🐍 else_in_comprehension.py
+│   ├── 🐍 fabanucc_sequence.py
+│   ├── 🐍 factorial.py
+│   ├── 📄 file.txt
+│   ├── 🐍 file_a_mode.py
+│   ├── 🐍 file_r_mode.py
+│   ├── 🐍 file_w_mode.py
+│   ├── 🐍 first.py
+│   ├── 📄 fruits.txt
+│   ├── 🐍 func_task.py
+│   ├── 🐍 function.py
+│   ├── 🐍 genrator.py
+│   ├── 🐍 module1.py
+│   ├── 🐍 module2.py
+│   ├── 🐍 module3.py
+│   ├── 🐍 nested_list_comprehension.py
+│   ├── 🐍 os.py
+│   ├── 🐍 prime.py
+│   ├── 🐍 recursive.py
+│   ├── 🐍 turtle_test.py
+│   └── 🐍 word_counter.py
+├── ⚙️ .gitignore
+└── 📝 README.md
 ```
 
 ---
