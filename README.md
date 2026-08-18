@@ -37,6 +37,19 @@ c:\Users\mehmo\Desktop\MehmoodsCode\Learning_Python
 
 ---
 
+## ⚙️ Setup & Execution Guide
+
+Follow these steps on Windows to set up your environment and launch the applications.
+
+### 1. Prerequisites Check
+Open Command Prompt (`cmd`) or PowerShell and verify Python is installed:
+
+```cmd
+python --version
+```
+
+---
+
 ## 👤 Author
 
 **MehmoodCoder**
